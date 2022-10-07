@@ -33,8 +33,8 @@ export class HomeComponent implements OnInit, OnDestroy {
     });
   }
 
-  oncolumnsCountChange(coulsNum: number): void {
-    this.cols = coulsNum;
+  onColumnsCountChange(colsNum: number): void {
+    this.cols = colsNum;
     this.rowHeight = ROWS_HEIGHT[this.cols];
   }
 
